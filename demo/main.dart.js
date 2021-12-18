@@ -62548,69 +62548,69 @@ A.a8z.prototype={
 $0(){},
 $S:0}
 A.a8A.prototype={
-$0(){var s,r,q,p=this,o="hh:mm a",n="Please choose a time slot \n\n*1* . 08:00 am - 11:00 am",m="Message",l="Sorry ! this options is not available in demo bot",k=$.iv()
-if(k.a.a==="")A.oh(B.o,16,B.ec,"Please enter message",B.j,1,B.ha)
+$0(){var s,r,q,p=this,o="hh:mm a",n="Message",m="Sorry ! this options is not available in demo bot",l=$.iv()
+if(l.a.a==="")A.oh(B.o,16,B.ec,"Please enter message",B.j,1,B.ha)
 else{s=p.a
 s.r.oZ(0,"send.mp3",B.EM)
 r=A.fw()
 r.a="2"
-r.b=k.a.a
+r.b=l.a.a
 r.c=A.f7(o).dU(new A.bB(Date.now(),!1))
-s.ao(new A.a8k(s,r))}s=k.a.a
+s.ao(new A.a8k(s,r))}s=l.a.a
 if(s.toLowerCase()==="hai"||s.toLowerCase()==="hi"){r=A.fw()
-k=p.a
-k.x="0"
-k.d.aW(0,new A.a8l(k,r),t.P)}else if(s.toLowerCase()==="6"){k=p.a
-k.d.aW(0,new A.a8m(k,A.fw()),t.P)}else if(s.toLowerCase()==="1"&&p.a.x==="0"){k=p.a
-k.x="a"
-k.d.aW(0,new A.a8q(k),t.P)}else if(s.toLowerCase()==="1"&&p.a.x==="a"){s=p.a
+l=p.a
+l.x="0"
+l.d.aW(0,new A.a8l(l,r),t.P)}else if(s.toLowerCase()==="6"){l=p.a
+l.d.aW(0,new A.a8m(l,A.fw()),t.P)}else if(s.toLowerCase()==="1"&&p.a.x==="0"){l=p.a
+l.x="a"
+l.d.aW(0,new A.a8q(l),t.P)}else if(s.toLowerCase()==="1"&&p.a.x==="a"){s=p.a
 s.x="b"
 r=A.fw()
 r.a="1"
-r.b=n
-s.f=m
-k.sbW(0,"")
+r.b="Please choose a time slot \n\n*1* . 08:00 am - 11:00 am\n*2* . 08:00 am - 11:00 am"
+s.f=n
+l.sbW(0,"")
 r.c=A.f7(o).dU(new A.bB(Date.now(),!1))
 s.ao(new A.a8r(s,r))
-k=s}else if(s.toLowerCase()==="1"&&p.a.x==="b"){k=p.a
-k.x="0"
-k.d.aW(0,new A.a8s(k),t.P)}else if(s.toLowerCase()==="2"&&p.a.y==="0"){k=p.a
-k.y="a"
-k.d.aW(0,new A.a8t(k),t.P)}else if(s.toLowerCase()==="2"&&p.a.y==="a"){s=p.a
+l=s}else if(s.toLowerCase()==="1"&&p.a.x==="b"){l=p.a
+l.x="0"
+l.d.aW(0,new A.a8s(l),t.P)}else if(s.toLowerCase()==="2"&&p.a.y==="0"){l=p.a
+l.y="a"
+l.d.aW(0,new A.a8t(l),t.P)}else if(s.toLowerCase()==="2"&&p.a.y==="a"){s=p.a
 s.y="b"
 r=A.fw()
 r.a="1"
 r.c=A.f7(o).dU(new A.bB(Date.now(),!1))
-r.b=n
-s.f=m
-k.sbW(0,"")
+r.b="Please choose a time slot \n\n*1* . 08:00 am - 11:00 am"
+s.f=n
+l.sbW(0,"")
 s.ao(new A.a8u(s,r))
-k=s}else if(s.toLowerCase()==="2"&&p.a.y==="b"){k=p.a
-k.y="0"
-k.d.aW(0,new A.a8v(k),t.P)}else if(s.toLowerCase()==="3"){k=p.a
-k.d.aW(0,new A.a8w(k),t.P)}else if(s.toLowerCase()==="4"){r=A.fw()
+l=s}else if(s.toLowerCase()==="2"&&p.a.y==="b"){l=p.a
+l.y="0"
+l.d.aW(0,new A.a8v(l),t.P)}else if(s.toLowerCase()==="3"){l=p.a
+l.d.aW(0,new A.a8w(l),t.P)}else if(s.toLowerCase()==="4"){r=A.fw()
 r.a="1"
 r.c=A.f7(o).dU(new A.bB(Date.now(),!1))
-r.b=l
+r.b=m
 s=p.a
-s.f=m
-k.sbW(0,"")
+s.f=n
+l.sbW(0,"")
 s.ao(new A.a8x(s,r))
-k=s}else{q=p.a
+l=s}else{q=p.a
 if(s.toLowerCase()==="5"){r=A.fw()
 r.a="1"
 r.c=A.f7(o).dU(new A.bB(Date.now(),!1))
-r.b=l
-q.f=m
-k.sbW(0,"")
+r.b=m
+q.f=n
+l.sbW(0,"")
 q.ao(new A.a8n(q,r))}else{r=A.fw()
 r.a="1"
 r.c=A.f7(o).dU(new A.bB(Date.now(),!1))
 r.b="Please reply valid message"
-q.f=m
-k.sbW(0,"")
-q.ao(new A.a8o(q,r))}k=q}A.iJ(p.b).jG($.aev())
-if(k.e.d.length!==0)A.TR(A.c9(0,50),new A.a8p(k),t.P)},
+q.f=n
+l.sbW(0,"")
+q.ao(new A.a8o(q,r))}l=q}A.iJ(p.b).jG($.aev())
+if(l.e.d.length!==0)A.TR(A.c9(0,50),new A.a8p(l),t.P)},
 $S:0}
 A.a8k.prototype={
 $0(){this.a.z.push(this.b)},
